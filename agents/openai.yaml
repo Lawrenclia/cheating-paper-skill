@@ -1,0 +1,4 @@
+interface:
+  display_name: "Two-Page Cheating Paper"
+  short_description: "Make two-page printable exam cheat sheets from notes"
+  default_prompt: "Use $two-page-cheating-paper to turn my notes into a two-page A4 printable cheating paper."
