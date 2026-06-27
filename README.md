@@ -40,8 +40,18 @@ The skill treats the rendered PDF page count as a hard contract. It compiles, co
 
 - `SKILL.md`: skill trigger, workflow, quality gate, and handoff rules
 - `references/layout-contract.md`: LaTeX layout contract and fitting ladder
+- `templates/two-page-cheating-paper.tex`: ready-to-copy XeLaTeX starter template
 - `scripts/check_pdf_pages.py`: page-count checker for compiled PDFs
 - `agents/openai.yaml`: model routing preference for high-context document compression
+
+## Start from the template
+
+```bash
+mkdir -p latex_build
+cp templates/two-page-cheating-paper.tex latex_build/cheating-paper.tex
+```
+
+Then edit `latex_build/cheating-paper.tex`, compile with XeLaTeX, and check the final PDF page count.
 
 ## Validation
 

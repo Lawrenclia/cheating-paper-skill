@@ -2,6 +2,8 @@
 
 Use this reference whenever the output must be exactly two rendered pages.
 
+For a ready-to-copy source file, start from `templates/two-page-cheating-paper.tex`.
+
 ## Default page model
 
 Use A4 landscape, four columns, two pages.

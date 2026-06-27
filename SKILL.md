@@ -36,7 +36,8 @@ Use `scripts/check_pdf_pages.py` after every compile. If the count is not exactl
 
 4. Build the LaTeX sheet.
    - Read `references/layout-contract.md` before writing a new `.tex` file or repairing layout.
-   - Start from the two-page layout contract, not a normal article template.
+   - Start from `templates/two-page-cheating-paper.tex` when creating a new sheet.
+   - Use the two-page layout contract, not a normal article template.
    - Keep source editable. Use TikZ for simple diagrams and real LaTeX math for formulas.
    - Put reusable figures in `latex_build/image/`; use stable relative paths.
 
